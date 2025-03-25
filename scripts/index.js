@@ -96,7 +96,7 @@ world.afterEvents.playerLeave.subscribe( data => {
     players.delete( data.playerName )
 } )
 
-// Item functionality
+// Item functionality and Server UI
 
 world.afterEvents.itemUse.subscribe( data => {
     const item = data.itemStack.typeId
