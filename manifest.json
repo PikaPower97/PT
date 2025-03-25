@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Parkour Tag Scripting",
+        "description": "Parkour Tag Scripting",
+        "uuid": "13711bd4-647f-4c86-9d9a-d04de8d72a02",
+        "min_engine_version": [ 1, 19, 0 ],
+        "version": [ 3, 0, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Thingy",
+            "type": "data",
+            "uuid": "4d788f17-d54a-4e43-8fe1-abf92a844a4c",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "description": "Script Resources",
+            "uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
+            "version": [1, 0, 0],
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js"
+        }        
+    ],
+    "dependencies": [
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.4.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.18.0-beta"
+		}
+    ]
+}
